@@ -65,9 +65,9 @@ view m =
   let cur = current m
   in div [class "app"]
        [ div [class "slideshow"]
-            [ img [class "slide active" , src (fst cur), key (fst cur) ] []
-            -- , img [class "slide" , src (snd cur), key (snd cur) ] []
-            , img [class "slide", src (snd cur)] []
+            [ img [class "slide active" , src (fst cur)] []
+            , img [class "slide" , src (snd cur)] []
+            ] []
             ]
        , button [ onClick (Signal.send actionChannel Prev)] [ text "<"]
        , button [ onClick (Signal.send actionChannel Next)] [ text ">"]
