@@ -2,7 +2,10 @@
 A simple elm-html app with CSS transitions.
 
 
-Most of the magic happens in `style.css`
+Most of the magic happens in `style.css` and in [arianvp/virtual-dom](https://github.com/arianvp/virtual-dom) 
+
+## Live demo
+[http://test.arianvp.me/](http://test.arianvp.me/)
 
 
 ## Instalations notes
