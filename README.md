@@ -10,7 +10,7 @@ Most of the magic happens in `style.css` and in [arianvp/virtual-dom](https://gi
 
 ## Instalations notes
 
-Because this relies on a version of `virtual-dom` that hasn't been merged upstream yet. You will need to clone [arianvp/virtual-dom](https://github.com/arianvp/virtual-dom)  and [arianvp/elm-html](https://github.com/arianvp/elm-html) and put them in a directory as follows:
+Because this relies on a version of `virtual-dom` that hasn't been merged upstream yet. You will need to clone [arianvp/virtual-dom](https://github.com/arianvp/virtual-dom/tree/transitions)  and [arianvp/elm-html](https://github.com/arianvp/elm-html) and put them in a directory as follows:
 
     ├── elm-gallery
     ├── elm-html
