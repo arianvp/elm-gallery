@@ -1,0 +1,19 @@
+.slideshow {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+
+.slide {
+  position: absolute;
+  opacity:1;
+  transition: opacity 2s ease-in-out;
+}
+
+.slide.active {
+  z-index: 1;
+}
+
+.slide.active.transition-entering {
+  opacity: 0;
+}
